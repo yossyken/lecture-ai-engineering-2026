@@ -12,3 +12,6 @@ learning_log/
 
 # macOS
 .DS_Store
+
+# Local Day 1 observations; review before copying selected results into answer.md.
+local_results/
