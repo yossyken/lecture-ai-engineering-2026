@@ -1,0 +1,100 @@
+{
+  "question": "LoRAとは何ですか？日本語で3文以内で説明してください。",
+  "models": [
+    "gemini-3.5-flash-lite",
+    "gemini-3.1-flash-lite"
+  ],
+  "runs_per_model": 3,
+  "planned_calls": 6,
+  "max_output_tokens": 2048,
+  "temperature": "model default (not overridden)",
+  "started_at_utc": "2026-10-26T04:36:33.313647+00:00",
+  "complete": true,
+  "results": [
+    {
+      "requested_model": "gemini-3.5-flash-lite",
+      "returned_model": "gemini-3.5-flash-lite",
+      "run": 1,
+      "started_at_utc": "2026-10-26T04:36:34.180524+00:00",
+      "elapsed_seconds": 1.354,
+      "tokens": {
+        "input": 16,
+        "output": 83,
+        "total": 99
+      },
+      "finish_reason": "STOP",
+      "response_text": "LoRA（Low-Rank Adaptation）とは、巨大なAIモデル全体を書き換えるのではなく、少数の追加パラメータだけを効率的に学習させる技術です。これにより、元モデルの性能を維持したまま、わずかな計算資源と時間で特定のタスクやスタイルに特化させることができます。画像生成AIや大規模言語モデル（LLM）のカスタマイズに広く利用されています。"
+    },
+    {
+      "requested_model": "gemini-3.1-flash-lite",
+      "returned_model": "gemini-3.1-flash-lite",
+      "run": 1,
+      "started_at_utc": "2026-10-26T04:36:35.535954+00:00",
+      "elapsed_seconds": 1.548,
+      "tokens": {
+        "input": 16,
+        "output": 83,
+        "total": 99
+      },
+      "finish_reason": "STOP",
+      "response_text": "LoRA（Low-Rank Adaptation）は、大規模なAIモデル全体を再学習させるのではなく、一部の小さなパラメータのみを調整することで効率的に追加学習を行う手法です。モデルのサイズを劇的に小さくできるため、少ない計算リソースで特定の画風やキャラクターに特化させたモデルを簡単に作成できます。現在、画像生成AIのStable Diffusionなどで広く利用されている技術です。"
+    },
+    {
+      "requested_model": "gemini-3.5-flash-lite",
+      "returned_model": "gemini-3.5-flash-lite",
+      "run": 2,
+      "started_at_utc": "2026-10-26T04:36:37.086474+00:00",
+      "elapsed_seconds": 0.986,
+      "tokens": {
+        "input": 16,
+        "output": 86,
+        "total": 102
+      },
+      "finish_reason": "STOP",
+      "response_text": "LoRA（Low-Rank Adaptation）とは、巨大なAIモデルのパラメータを直接書き換えるのではなく、少数の「追加パラメータ」だけを効率的に学習させる手法です。これにより、元モデルの性能を保ったまま、わずかな計算資源とメモリで特定のタスクやスタイルに特化させることができます。生成AIのカスタマイズやファインチューニングにおいて、現在主流となっている技術です。"
+    },
+    {
+      "requested_model": "gemini-3.1-flash-lite",
+      "returned_model": "gemini-3.1-flash-lite",
+      "run": 2,
+      "started_at_utc": "2026-10-26T04:36:38.077324+00:00",
+      "elapsed_seconds": 2.331,
+      "tokens": {
+        "input": 16,
+        "output": 78,
+        "total": 94
+      },
+      "finish_reason": "STOP",
+      "response_text": "LoRA（Low-Rank Adaptation）は、大規模なAIモデル全体を再学習させる代わりに、一部の小さなパラメータのみを効率的に追加学習させる技術です。これにより、少ない計算資源と短時間で、特定のタスクやスタイルに最適化したモデルを作成できます。生成AIの分野において、キャラクターや画風をカスタマイズする手法として広く利用されています。"
+    },
+    {
+      "requested_model": "gemini-3.5-flash-lite",
+      "returned_model": "gemini-3.5-flash-lite",
+      "run": 3,
+      "started_at_utc": "2026-10-26T04:36:40.413069+00:00",
+      "elapsed_seconds": 1.324,
+      "tokens": {
+        "input": 16,
+        "output": 91,
+        "total": 107
+      },
+      "finish_reason": "STOP",
+      "response_text": "LoRA（Low-Rank Adaptation）とは、巨大なAIモデル全体を書き換えるのではなく、一部の小さなパラメータだけを追加・学習させることで、効率的にモデルをカスタマイズする技術です。元のモデルを保持したまま追加学習できるため、必要なメモリや計算コストを大幅に削減できます。主に画像生成AIや大規模言語モデル（LLM）の微調整（ファインチューニング）で広く活用されています。"
+    },
+    {
+      "requested_model": "gemini-3.1-flash-lite",
+      "returned_model": "gemini-3.1-flash-lite",
+      "run": 3,
+      "started_at_utc": "2026-10-26T04:36:41.742142+00:00",
+      "elapsed_seconds": 1.399,
+      "tokens": {
+        "input": 16,
+        "output": 85,
+        "total": 101
+      },
+      "finish_reason": "STOP",
+      "response_text": "LoRA（Low-Rank Adaptation）は、大規模なAIモデルの一部だけを効率的に追加学習させるための手法です。モデル全体を書き換えるのではなく、軽量な追加レイヤーのみを学習させるため、少ない計算リソースと時間でカスタマイズが可能です。主に画像生成AIやLLMのファインチューニングにおいて、特定の画風や知識を追加する際によく利用されます。"
+    }
+  ],
+  "finished_at_utc": "2026-10-26T04:36:43.145468+00:00"
+}
