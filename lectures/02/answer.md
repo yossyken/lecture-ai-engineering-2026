@@ -9,7 +9,7 @@
 
 ## 講師参考結果の比較・考察
 
-出典：[公式result.json](https://github.com/matsuolab/lecture-ai-engineering-2026/blob/fae899a409e2c99feee9d44a3789f936f5fc64ee/lectures/02/reference/result.json)、[公式eval_after.json](https://github.com/matsuolab/lecture-ai-engineering-2026/blob/fae899a409e2c99feee9d44a3789f936f5fc64ee/lectures/02/reference/eval_after.json)。実行者は講師。
+講師提供の参照ファイル：[result.json](./reference/result.json)、[eval_before.json](./reference/eval_before.json)、[eval_after.json](./reference/eval_after.json)。出典と実行者は各ファイルの `source`・`measurement_author` に記録した。本人の実測ではない。注記は [reference/README.md](./reference/README.md) に示す。
 
 | 指標 | 講師の学習前 | 講師の学習後 |
 |---|---:|---:|
